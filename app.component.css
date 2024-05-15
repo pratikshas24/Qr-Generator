@@ -1,0 +1,77 @@
+/* You can add global styles to this file, 
+and also import other style files */
+.qrcodeshadow { 
+	display: flex; 
+	align-items: center; 
+	justify-content: center; 
+	filter: drop-shadow(15px 15px 15px #e42424); 
+	opacity: .5; 
+} 
+
+textarea { 
+	margin-top: 15px; 
+	display: block; 
+	margin-left: auto; 
+	margin-right: auto; 
+	width: 400px; 
+	font-family: Verdana, Geneva, Tahoma, sans-serif; 
+	font-size: large; 
+	font-weight: bold; 
+	color: rgb(128, 0, 38); 
+	opacity: .5; 
+}
+h1{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: xx-large;
+  color:rgb(51, 25, 25) ;
+  opacity: .5;
+}
+  
+body { 
+	display: flex; 
+	align-items: center; 
+	justify-content: center; 
+	font-family: sans-serif; 
+	line-height: 1.5; 
+	min-height: 100vh; 
+	background: #f3f3f3; 
+	flex-direction: column; 
+	margin: 0; 
+} 
+
+.main { 
+	background-color: #fff; 
+	border-radius: 15px; 
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); 
+	padding: 10px 20px; 
+	transition: transform 0.2s; 
+	width: 500px; 
+	text-align: center; 
+} 
+
+h1 { 
+	color:rgb(2, 12, 12);
+} 
+
+label { 
+	display: block; 
+	width: 100%; 
+	margin-top: 10px; 
+	margin-bottom: 5px; 
+	text-align: left; 
+	color: #a59d9d; 
+	font-weight: bold; 
+} 
+
+
+input { 
+	display: block; 
+	width: 100%; 
+	margin-bottom: 15px; 
+	padding: 10px; 
+	box-sizing: border-box; 
+	border: 1px solid #ddd; 
+	border-radius: 5px; 
+} 
+
